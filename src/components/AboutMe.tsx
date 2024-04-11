@@ -47,7 +47,7 @@ const AboutMe: FC = () => {
           <p className="text-[14px] md:text-[16px] text-gray-800 dark:text-gray-200 font-medium max-w-[600px]">
             Results-driven Frontend and Web3 Developer with{" "}
             <span className="text-purple-800 dark:text-purple-500 font-bold">
-              8+ years
+              9+ years
             </span>{" "}
             of experience in frontend development and expertise in{" "}
             <span className="text-purple-800 dark:text-purple-500 font-bold">
