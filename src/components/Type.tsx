@@ -1,6 +1,7 @@
-import React from "react";
+import React, { FC } from "react";
 import { Typewriter } from "react-simple-typewriter";
-function Type() {
+
+const Type: FC = () => {
   return (
     <Typewriter
       words={[
@@ -17,6 +18,6 @@ function Type() {
       delaySpeed={1000}
     />
   );
-}
+};
 
 export default Type;

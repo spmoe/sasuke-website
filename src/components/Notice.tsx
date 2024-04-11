@@ -1,6 +1,7 @@
+import { FC } from "react";
 import Link from "next/link";
 
-export default function Notice() {
+const Notice: FC = () => {
   return (
     <div className="px-10 py-5 border bg-red-100 text-black">
       <span className="text-[red] font-bold">Warning!! </span>There are scammers
@@ -11,4 +12,6 @@ export default function Notice() {
       </span>
     </div>
   );
-}
+};
+
+export default Notice;

@@ -1,3 +1,9 @@
+import { FC } from "react";
+
+interface IconProps {
+  className?: string;
+}
+
 export const EthereumIcon = () => {
   return (
     <svg
@@ -523,10 +529,10 @@ export const TelegramIcon = () => {
   );
 };
 
-export const TwitterIcon = ({ className }) => {
+export const TwitterIcon: FC<IconProps> = ({ className = "" }) => {
   return (
     <svg
-      className={className ? className : ""}
+      className={className}
       width="24"
       height="24"
       viewBox="0 0 24 24"
@@ -543,10 +549,10 @@ export const TwitterIcon = ({ className }) => {
   );
 };
 
-export const LinkedinIcon = ({ className }) => {
+export const LinkedinIcon: FC<IconProps> = ({ className = "" }) => {
   return (
     <svg
-      className={className ? className : ""}
+      className={className}
       width="24"
       height="24"
       viewBox="0 0 24 24"
@@ -563,10 +569,10 @@ export const LinkedinIcon = ({ className }) => {
   );
 };
 
-export const TelegramHIcon = ({ className }) => {
+export const TelegramHIcon: FC<IconProps> = ({ className = "" }) => {
   return (
     <svg
-      className={className ? className : ""}
+      className={className}
       width="24"
       height="24"
       viewBox="0 0 24 24"
@@ -581,10 +587,10 @@ export const TelegramHIcon = ({ className }) => {
   );
 };
 
-export const GithubIcon = ({ className }) => {
+export const GithubIcon: FC<IconProps> = ({ className = "" }) => {
   return (
     <svg
-      className={className ? className : ""}
+      className={className}
       width="24"
       height="24"
       viewBox="0 0 24 24"
@@ -601,10 +607,10 @@ export const GithubIcon = ({ className }) => {
   );
 };
 
-export const DiscordHIcon = ({ className }) => {
+export const DiscordHIcon: FC<IconProps> = ({ className = "" }) => {
   return (
     <svg
-      className={className ? className : ""}
+      className={className}
       width="24"
       height="19"
       viewBox="0 0 24 19"

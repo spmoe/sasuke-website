@@ -1,3 +1,5 @@
+import { ExpereinceItem } from "./utils/types";
+
 export const MYNAME = "Sasuke";
 export const JAPANNAME = "サスケ";
 export const SEO_DOCUMENT = [
@@ -10,19 +12,7 @@ export const SEO_DOCUMENT = [
     text: "cripto, web3, developer, personal, personal website, react.js, vue.js, nuxt.js, seo, next.js, next",
   },
 ];
-export const EXPERIENCE = [
-  // {
-  //   thumb: "/projects/project-1.jpg",
-  //   role: "Frontend and Web3 Developer",
-  //   from: "04/2022",
-  //   isStar: true,
-  //   to: "05/2022",
-  //   description:
-  //     "The main challenge I tackled was the integration with the OpenSea API, where achieving parameter matches proved to be quite challenging for me. After dedicated study and effective communication with the OpenSea development team and sponsors.",
-  //   stack: "Next.js 14, Wagmi, Web3, TailwindCSS, Ethereum, OpenSea API",
-  //   url: "https://inkubate-marketplace-fe.vercel.app/",
-  //   category: "web3",
-  // },
+export const EXPERIENCE: ExpereinceItem[] = [
   {
     thumb: "/projects/pl.png",
     hoverThumb: "/projects/pl.gif",

@@ -15,14 +15,15 @@ import {
   Web3Icon,
 } from "./SvgIcons";
 import SocialBox from "./SocialBox";
-import Notice from "./Notice";
+// import Notice from "./Notice";
+import { FC } from "react";
 
-export default function AboutMe() {
+const AboutMe: FC = () => {
   return (
     <div className="container mx-auto">
       <div className="" id="home">
         <div className="mt-20 about-me">
-          <Notice />
+          {/* <Notice /> */}
           <p className="text-[12px] pt-10 text-gray-500 font-bold">
             WELCOME TO MY WORLD
           </p>
@@ -142,4 +143,6 @@ export default function AboutMe() {
       </div>
     </div>
   );
-}
+};
+
+export default AboutMe;

@@ -1,7 +1,8 @@
+import React, { FC } from "react";
 import EmploymentItem from "./EmploymentItem";
 import { SectionTitle } from "./StyledComponent";
 
-export default function Employment() {
+const Employment: FC = () => {
   return (
     <div id="experience" className="container mx-auto">
       <div className="experience mt-20">
@@ -21,7 +22,9 @@ export default function Employment() {
       </div>
     </div>
   );
-}
+};
+
+export default Employment;
 
 const emplyments = [
   {

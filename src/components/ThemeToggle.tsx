@@ -1,8 +1,8 @@
 import { useTheme } from "next-themes";
-import { MoonActive, SunActive } from "./SvgIcons";
+import { FC } from "react";
 import { ReactSVG } from "react-svg";
 
-const ThemeToggle = () => {
+const ThemeToggle: FC = () => {
   const { theme, setTheme } = useTheme();
   return (
     <div className="rounded-full flex gap-1 bg-[#F4F4F4] dark:bg-[#111315] p-1">

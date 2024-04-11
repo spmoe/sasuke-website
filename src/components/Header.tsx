@@ -1,9 +1,9 @@
-import { useState } from "react";
+import { FC, useState } from "react";
 import ThemeToggle from "./ThemeToggle";
 import Link from "next/link";
 
-export default function Header() {
-  const [open, setOpen] = useState(false);
+const Header: FC = () => {
+  const [open, setOpen] = useState<boolean>(false);
 
   return (
     <header className="h-[48px] lg:h-[68px]">
@@ -28,11 +28,6 @@ export default function Header() {
           <li className="font-semibold capitalize px-6 text-[14px] py-2 hover:text-purple-500">
             <Link href="/#skills" className="font-bold capitalize">
               skills
-            </Link>
-          </li>
-          <li className="font-semibold capitalize px-6 text-[14px] py-2 hover:text-purple-500">
-            <Link href="/lol" className="font-bold capitalize">
-              scammers
             </Link>
           </li>
         </ul>
@@ -121,12 +116,11 @@ export default function Header() {
             <Link href="/#contact" className="font-bold">
               contact
             </Link>
-            <Link href="/lol" className="font-bold">
-              scammers
-            </Link>
           </div>
         </div>
       </div>
     </header>
   );
-}
+};
+
+export default Header;
