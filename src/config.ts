@@ -112,7 +112,7 @@ export const EXPERIENCE: ExpereinceItem[] = [
     description:
       "Solana NFT Staking Website. I made the Smart contact by using Rust and built React frontend. This site give rewards to user by there own Token called $WHEY",
     stack: "Rust, Web3, React.js",
-    url: "https://www.shreddedapes-staking.io/",
+    url: "https://bootcamp.shreddedapes.io/",
     category: "web3",
   },
   {
