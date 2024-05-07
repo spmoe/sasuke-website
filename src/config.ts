@@ -1,7 +1,6 @@
 import { ExpereinceItem } from "./utils/types";
 
 export const MYNAME = "Sasuke";
-export const JAPANNAME = "サスケ";
 export const SEO_DOCUMENT = [
   {
     id: 1,
