@@ -89,7 +89,7 @@ export const EXPERIENCE: ExpereinceItem[] = [
     description:
       "Product market. As the head developer of webshop, I made ecommerce with Web3.js with Next.js. There is token transaction validation. Users can purchase products with SPL tokens ($WHEY, $DUSTY) and regular payments(Credit card, Paypal, and so on).",
     stack: "Rust, Web3, Firebase, Next.js, commercejs",
-    url: "https://www.shreddedapes.shop/",
+    url: "https://www.shreddedapes.io/store",
     category: "web3, e-commerce",
   },
   {
